@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="cse.maven.sample.BmiCalculatorTest" duration-ms="55" started-at="2013-09-11T20:22:09Z" finished-at="2013-09-11T20:22:09Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="55" started-at="2013-09-11T20:22:09Z" finished-at="2013-09-11T20:22:09Z">
+      <class name="cse.maven.sample.BmiCalculatorTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:cse.maven.sample.BmiCalculatorTest@717ef5]" name="setUp" is-config="true" duration-ms="22" started-at="2013-09-12T01:52:09Z" finished-at="2013-09-12T01:52:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createBmiTest1()[pri:0, instance:cse.maven.sample.BmiCalculatorTest@717ef5]" name="createBmiTest1" duration-ms="6" started-at="2013-09-12T01:52:09Z" finished-at="2013-09-12T01:52:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createBmiTest1 -->
+        <test-method status="PASS" signature="createBmiTest2()[pri:0, instance:cse.maven.sample.BmiCalculatorTest@717ef5]" name="createBmiTest2" duration-ms="1" started-at="2013-09-12T01:52:09Z" finished-at="2013-09-12T01:52:09Z">
+          <exception class="cse.maven.sample.exception.InvalidBmiPropException">
+            <message>
+              <![CDATA[Invalid heigh or weight is entered.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[cse.maven.sample.exception.InvalidBmiPropException: Invalid heigh or weight is entered.
+	at cse.maven.sample.BmiCalculator.createBmiProp(BmiCalculator.java:18)
+	at cse.maven.sample.BmiCalculatorTest.createBmiTest2(BmiCalculatorTest.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:70)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:109)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:111)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
+]]>
+            </full-stacktrace>
+          </exception> <!-- cse.maven.sample.exception.InvalidBmiPropException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createBmiTest2 -->
+        <test-method status="PASS" signature="testCalculate1()[pri:0, instance:cse.maven.sample.BmiCalculatorTest@717ef5]" name="testCalculate1" duration-ms="0" started-at="2013-09-12T01:52:09Z" finished-at="2013-09-12T01:52:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCalculate1 -->
+        <test-method status="PASS" signature="testCalculate2()[pri:0, instance:cse.maven.sample.BmiCalculatorTest@717ef5]" name="testCalculate2" duration-ms="1" started-at="2013-09-12T01:52:09Z" finished-at="2013-09-12T01:52:09Z">
+          <exception class="cse.maven.sample.exception.InvalidBmiPropException">
+            <message>
+              <![CDATA[Invalid heigh or weight is entered.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[cse.maven.sample.exception.InvalidBmiPropException: Invalid heigh or weight is entered.
+	at cse.maven.sample.BmiCalculator.calculate(BmiCalculator.java:25)
+	at cse.maven.sample.BmiCalculatorTest.testCalculate2(BmiCalculatorTest.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:70)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:109)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:111)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
+]]>
+            </full-stacktrace>
+          </exception> <!-- cse.maven.sample.exception.InvalidBmiPropException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCalculate2 -->
+      </class> <!-- cse.maven.sample.BmiCalculatorTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- cse.maven.sample.BmiCalculatorTest -->
+</testng-results>
